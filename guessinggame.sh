@@ -6,7 +6,7 @@ function guess_filenumber {
 	if [[ $guess -eq $filenum ]]
 	then
 		echo "Amazing!!! You finally guessed it!"
-		echo "Hooooooray"
+		echo "Hurrrayyy"
 		echo "  So we have ..."
 		for f in $(ls)
 		do
